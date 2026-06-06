@@ -19,7 +19,6 @@ body {
   padding-top: 56px;
 }
 
-/* NAV */
 .pasnav {
   position: fixed;
   top: 0;
@@ -38,7 +37,6 @@ body {
   transition: background-color 400ms ease-out;
   flex-wrap: wrap;
 
-  /* changed from hidden -> visible so dropdown can show */
   overflow: visible;
 }
 .logo {
@@ -93,7 +91,6 @@ body {
   z-index: 1001;
 }
 
-/* Mobile */
 @media (max-width: 815px) {
   
   .menu-toggle {
@@ -112,7 +109,6 @@ body {
   .linki-nav {
     display: none;
     position: absolute;
-    /* place dropdown just below the nav bar */
     top: calc(100% + 0.4rem);
     left: 0;
     width: 100%;
@@ -181,9 +177,6 @@ body {
   }
 }
  
-
-
-/* rest of original CSS (kept mostly unchanged) */
 .main {
   min-height: 100vh;
   display: flex;
@@ -221,7 +214,7 @@ body {
   50% { transform: translateY(-20px); }
 }
 .main h1 {
-  font-size: 4rem;
+  font-size: 3.61rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(45deg, var(--akcent) 30%, #257de3 70%);
   -webkit-background-clip: text;
