@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const isActive = navLinks.classList.toggle("active");
     toggleBtn.setAttribute("aria-expanded", isActive ? "true" : "false");
 
-    // swap icon (Font Awesome 4)
     const icon = toggleBtn.querySelector('i');
     if (icon) {
       if (isActive) {
