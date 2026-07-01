@@ -178,7 +178,7 @@ body {
 }
  
 .main {
-  min-height: 100vh;
+  min-height: 88vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,7 +214,7 @@ body {
   50% { transform: translateY(-20px); }
 }
 .main h1 {
-  font-size: 3.61rem;
+  font-size: 3.9rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(45deg, var(--akcent) 30%, #257de3 70%);
   -webkit-background-clip: text;
@@ -223,7 +223,7 @@ body {
 }
 
 .main p {
-  font-size: 1.2rem;
+  font-size: 1.319rem;
   margin-bottom: 2rem;
   opacity: 0.9;
   max-width: 600px;
